@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">ABHISHEK'S<span style="color: var(--secondary);"> DESIGNS</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#tools">My Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>CREATIVE DESIGNS</h1>
+                <p>Showcasing my designs created with passion and expertise. Each piece reflects creativity, technical skill, and attention to detail.</p>
+                <div class="hero-btns">
+                    <a href="#gallery" class="btn btn-primary">Explore Designs</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                <path d="M250,50 C350,80 420,150 450,250 C420,350 350,420 250,450 C150,420 80,350 50,250 C80,150 150,80 250,50 Z" fill="none" stroke="var(--primary)" stroke-width="3" stroke-dasharray="10,5"/>
+                <polygon points="250,100 300,200 250,300 200,200" fill="none" stroke="var(--secondary)" stroke-width="3"/>
+                <circle cx="250" cy="250" r="80" fill="none" stroke="var(--primary)" stroke-width="2"/>
+            </svg>
+        </div>
+    </section>
+
+
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Design Gallery</h2>
+            </div>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Designs</button>
+                <button class="filter-btn" data-filter="logo">Logos</button>
+                <button class="filter-btn" data-filter="poster">Posters & Banners</button>
+            </div>
+            
+            <div class="gallery-grid">
+
+
+                <div class="design-card" data-type="logo" data-id="logo1">
+                    <div class="card-image">
+                        <img src="8.JPG" alt="Tech Logo">
+                    </div>
+                    <div class="card-content">
+                        <h3>Shree Shyam Opticals</h3>
+                    </div>
+                    <span class="design-type type-logo">Logo</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                        <div class="tool"><i class="fab fa-adobe"></i> Illustrator</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="logo" data-id="logo2">
+                    <div class="card-image">
+                        <img src="9.JPG" alt="Fashion Logo">
+                    </div>
+                    <div class="card-content">
+                        <h3>Cansala Hotel</h3>
+                    </div>
+                    <span class="design-type type-logo">Logo</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                        <div class="tool"><i class="fab fa-adobe"></i> Illustrator</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="logo" data-id="logo3">
+                    <div class="card-image">
+                        <img src="10.JPG" alt="Restaurant Logo">
+                    </div>
+                    <div class="card-content">
+                        <h3>Home Decor</h3>
+                    </div>
+                    <span class="design-type type-logo">Logo</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                        <div class="tool"><i class="fab fa-adobe"></i> Illustrator</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="logo" data-id="logo4">
+                    <div class="card-image">
+                        <img src="11.JPG" alt="Travel Logo">
+                    </div>
+                    <div class="card-content">
+                        <h3>Tateng Hospitality</h3>
+                    </div>
+                    <span class="design-type type-logo">Logo</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                        <div class="tool"><i class="fab fa-adobe"></i> Illustrator</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="logo" data-id="logo5">
+                    <div class="card-image">
+                        <img src="12.JPG" alt="Fitness Logo">
+                    </div>
+                    <div class="card-content">
+                        <h3>Tateng Hospitality</h3>
+                    </div>
+                    <span class="design-type type-logo">Logo</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Illustrator</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+                
+
+                <div class="design-card" data-type="poster" data-id="poster1">
+                    <div class="card-image">
+                        <img src="1.JPG" alt="Music Poster">
+                    </div>
+                    <div class="card-content">
+                        <h3>Avni Homestay</h3>
+                    </div>
+                    <span class="design-type type-poster">Poster</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Photoshop</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="poster" data-id="poster2">
+                    <div class="card-image">
+                        <img src="2.JPG" alt="Book Cover">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ajay Pradhan</h3>
+                    </div>
+                    <span class="design-type type-poster">Poster</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Photoshop</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="poster" data-id="poster3">
+                    <div class="card-image">
+                        <img src="3.JPG" alt="Product Banner">
+                    </div>
+                    <div class="card-content">
+                        <h3>Valley Queen Homestay</h3>
+                    </div>
+                    <span class="design-type type-poster">Banner</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Photoshop</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="poster" data-id="poster4">
+                    <div class="card-image">
+                        <img src="4.JPG" alt="Event Poster">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ebi's Homestay</h3>
+                    </div>
+                    <span class="design-type type-poster">Poster</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Photoshop</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="poster" data-id="poster5">
+                    <div class="card-image">
+                        <img src="5.JPG" alt="Movie Poster">
+                    </div>
+                    <div class="card-content">
+                        <h3>Football Association</h3>
+                    </div>
+                    <span class="design-type type-poster">Poster</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Photoshop</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="poster" data-id="poster6">
+                    <div class="card-image">
+                        <img src="6.JPG" alt="Sports Banner">
+                    </div>
+                    <div class="card-content">
+                        <h3>Meals on Wheels</h3>
+                    </div>
+                    <span class="design-type type-poster">Banner</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Photoshop</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+                
+                <div class="design-card" data-type="poster" data-id="poster7">
+                    <div class="card-image">
+                        <img src="7.JPG" alt="Art Exhibition">
+                    </div>
+                    <div class="card-content">
+                        <h3>Gairi Gaon</h3>
+                    </div>
+                    <span class="design-type type-poster">Poster</span>
+                    <div class="tools-used">
+                        <div class="tool"><i class="fab fa-adobe"></i> Photoshop</div>
+                        <div class="tool"><i class="fas fa-pen-fancy"></i> Corel Draw</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section class="tools-section" id="tools">
+    <div class="container">
+        <div class="section-title">
+            <h2>My skills</h2>
+        </div>
+        
+        <div class="tools-container">
+            <div class="tool-card">
+                <div class="tool-inner">
+                    <div class="tool-front">
+                        <i class="fab fa-adobe"></i>
+                        <h3>Photoshop</h3>
+                    </div>
+                    <div class="tool-back">
+                        <h3>Adobe Photoshop</h3>
+                        <p>Industry standard for image editing and painting. Used for photo manipulation, compositing, and creating graphics.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tool-card">
+                <div class="tool-inner">
+                    <div class="tool-front">
+                        <i class="fas fa-pen-fancy"></i>
+                        <h3>CorelDRAW</h3>
+                    </div>
+                    <div class="tool-back">
+                        <h3>CorelDRAW</h3>
+                        <p>Vector graphics editor for logo design, page layout, and illustration. Known for its precision tools and versatile design capabilities.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tool-card">
+                <div class="tool-inner">
+                    <div class="tool-front">
+                        <i class="fab fa-adobe"></i>
+                        <h3>Illustrator</h3>
+                    </div>
+                    <div class="tool-back">
+                        <h3>Adobe Illustrator</h3>
+                        <p>Leading vector graphics software for creating logos, icons, typography, and complex illustrations for any medium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Abhishek's DESIGNS</div>
+                <p>Bringing creative visions to life through exceptional graphic design</p>
+                
+                <div class="social-links">
+                    <a href="" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-sharma-5b0845367?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEXJLfP6QTByOwWApgfTRfg%3D%3D" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                
+                <p>Ready to start a project? <a href="mailto:contact@designfuture.com" style="color: var(--primary); text-decoration: none;">workwithabhishek018@gmail.com</a></p>
+                
+                <div class="copyright">
+                    &copy; 2025 Abhishek's DESIGNS.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modal-image" class="modal-image" src="" alt="Design Showcase">
+                <div class="modal-details">
+                    <h2 id="modal-title"></h2>
+                    <span id="modal-type" class="design-type"></span>
+                    <p id="modal-description"></p>
+                    <div class="modal-tools" id="modal-tools"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
